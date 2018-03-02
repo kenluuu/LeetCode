@@ -1,5 +1,5 @@
 class Solution(object):
-    def isAnagram(self, s, t):        
+    def isAnagram(self, s, t):
         dict = {}
         for letter in s:
             if letter not in dict:
